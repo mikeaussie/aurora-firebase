@@ -14,6 +14,14 @@
 		A28D4A401D1E106D008A2CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28D4A3F1D1E106D008A2CEA /* Assets.xcassets */; };
 		A28D4A431D1E106D008A2CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28D4A411D1E106D008A2CEA /* LaunchScreen.storyboard */; };
 		A28D4A4B1D1E109E008A2CEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A28D4A4A1D1E109E008A2CEA /* GoogleService-Info.plist */; };
+		A28D4A511D1E154A008A2CEA /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A28D4A4D1D1E154A008A2CEA /* NotoSans-Bold.ttf */; };
+		A28D4A521D1E154A008A2CEA /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A28D4A4E1D1E154A008A2CEA /* NotoSans-BoldItalic.ttf */; };
+		A28D4A531D1E154A008A2CEA /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A28D4A4F1D1E154A008A2CEA /* NotoSans-Italic.ttf */; };
+		A28D4A541D1E154A008A2CEA /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A28D4A501D1E154A008A2CEA /* NotoSans-Regular.ttf */; };
+		A28D4A571D1E1E22008A2CEA /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D4A561D1E1E22008A2CEA /* MaterialTextField.swift */; };
+		A28D4A591D1E1E36008A2CEA /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D4A581D1E1E36008A2CEA /* MaterialButton.swift */; };
+		A28D4A5B1D1E1E51008A2CEA /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D4A5A1D1E1E51008A2CEA /* MaterialView.swift */; };
+		A28D4A5E1D1E1EA1008A2CEA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D4A5D1D1E1EA1008A2CEA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 		A28D4A421D1E106D008A2CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A28D4A441D1E106D008A2CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A28D4A4A1D1E109E008A2CEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A28D4A4D1D1E154A008A2CEA /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		A28D4A4E1D1E154A008A2CEA /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A28D4A4F1D1E154A008A2CEA /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		A28D4A501D1E154A008A2CEA /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		A28D4A561D1E1E22008A2CEA /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		A28D4A581D1E1E36008A2CEA /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		A28D4A5A1D1E1E51008A2CEA /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		A28D4A5D1D1E1EA1008A2CEA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,9 @@
 		A28D4A2C1D1E106D008A2CEA = {
 			isa = PBXGroup;
 			children = (
+				A28D4A5C1D1E1E90008A2CEA /* Util */,
+				A28D4A551D1E1DF1008A2CEA /* View */,
+				A28D4A4C1D1E153D008A2CEA /* Resources */,
 				A28D4A371D1E106D008A2CEA /* aurora-firebase */,
 				A28D4A361D1E106D008A2CEA /* Products */,
 				650589EF4B85EEC3D6ADAB52 /* Pods */,
@@ -89,6 +108,35 @@
 				A28D4A441D1E106D008A2CEA /* Info.plist */,
 			);
 			path = "aurora-firebase";
+			sourceTree = "<group>";
+		};
+		A28D4A4C1D1E153D008A2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A28D4A4D1D1E154A008A2CEA /* NotoSans-Bold.ttf */,
+				A28D4A4E1D1E154A008A2CEA /* NotoSans-BoldItalic.ttf */,
+				A28D4A4F1D1E154A008A2CEA /* NotoSans-Italic.ttf */,
+				A28D4A501D1E154A008A2CEA /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A28D4A551D1E1DF1008A2CEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A28D4A561D1E1E22008A2CEA /* MaterialTextField.swift */,
+				A28D4A581D1E1E36008A2CEA /* MaterialButton.swift */,
+				A28D4A5A1D1E1E51008A2CEA /* MaterialView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A28D4A5C1D1E1E90008A2CEA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A28D4A5D1D1E1EA1008A2CEA /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +200,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28D4A521D1E154A008A2CEA /* NotoSans-BoldItalic.ttf in Resources */,
 				A28D4A431D1E106D008A2CEA /* LaunchScreen.storyboard in Resources */,
 				A28D4A4B1D1E109E008A2CEA /* GoogleService-Info.plist in Resources */,
 				A28D4A401D1E106D008A2CEA /* Assets.xcassets in Resources */,
+				A28D4A541D1E154A008A2CEA /* NotoSans-Regular.ttf in Resources */,
+				A28D4A531D1E154A008A2CEA /* NotoSans-Italic.ttf in Resources */,
+				A28D4A511D1E154A008A2CEA /* NotoSans-Bold.ttf in Resources */,
 				A28D4A3E1D1E106D008A2CEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,8 +266,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28D4A571D1E1E22008A2CEA /* MaterialTextField.swift in Sources */,
 				A28D4A3B1D1E106D008A2CEA /* ViewController.swift in Sources */,
+				A28D4A5B1D1E1E51008A2CEA /* MaterialView.swift in Sources */,
+				A28D4A591D1E1E36008A2CEA /* MaterialButton.swift in Sources */,
 				A28D4A391D1E106D008A2CEA /* AppDelegate.swift in Sources */,
+				A28D4A5E1D1E1EA1008A2CEA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
