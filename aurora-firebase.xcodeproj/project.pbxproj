@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A514B1B50FA11DBD9504E8A /* Pods_aurora_firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F17305C9E5765ECC3E926F /* Pods_aurora_firebase.framework */; };
 		A28D4A391D1E106D008A2CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D4A381D1E106D008A2CEA /* AppDelegate.swift */; };
 		A28D4A3B1D1E106D008A2CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D4A3A1D1E106D008A2CEA /* ViewController.swift */; };
 		A28D4A3E1D1E106D008A2CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28D4A3C1D1E106D008A2CEA /* Main.storyboard */; };
 		A28D4A401D1E106D008A2CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28D4A3F1D1E106D008A2CEA /* Assets.xcassets */; };
 		A28D4A431D1E106D008A2CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28D4A411D1E106D008A2CEA /* LaunchScreen.storyboard */; };
+		A28D4A4B1D1E109E008A2CEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A28D4A4A1D1E109E008A2CEA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06026F825F64852EE16BBE06 /* Pods-aurora-firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aurora-firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-aurora-firebase/Pods-aurora-firebase.release.xcconfig"; sourceTree = "<group>"; };
+		371A4BD27F352CD464A9909B /* Pods-aurora-firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aurora-firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aurora-firebase/Pods-aurora-firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		71F17305C9E5765ECC3E926F /* Pods_aurora_firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aurora_firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28D4A351D1E106D008A2CEA /* aurora-firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aurora-firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28D4A381D1E106D008A2CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A28D4A3A1D1E106D008A2CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		A28D4A3F1D1E106D008A2CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A28D4A421D1E106D008A2CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A28D4A441D1E106D008A2CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28D4A4A1D1E109E008A2CEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A514B1B50FA11DBD9504E8A /* Pods_aurora_firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		650589EF4B85EEC3D6ADAB52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				371A4BD27F352CD464A9909B /* Pods-aurora-firebase.debug.xcconfig */,
+				06026F825F64852EE16BBE06 /* Pods-aurora-firebase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		733C7922939807A10CC33464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71F17305C9E5765ECC3E926F /* Pods_aurora_firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A28D4A2C1D1E106D008A2CEA = {
 			isa = PBXGroup;
 			children = (
 				A28D4A371D1E106D008A2CEA /* aurora-firebase */,
 				A28D4A361D1E106D008A2CEA /* Products */,
+				650589EF4B85EEC3D6ADAB52 /* Pods */,
+				733C7922939807A10CC33464 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 			children = (
 				A28D4A381D1E106D008A2CEA /* AppDelegate.swift */,
 				A28D4A3A1D1E106D008A2CEA /* ViewController.swift */,
+				A28D4A4A1D1E109E008A2CEA /* GoogleService-Info.plist */,
 				A28D4A3C1D1E106D008A2CEA /* Main.storyboard */,
 				A28D4A3F1D1E106D008A2CEA /* Assets.xcassets */,
 				A28D4A411D1E106D008A2CEA /* LaunchScreen.storyboard */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A28D4A471D1E106D008A2CEA /* Build configuration list for PBXNativeTarget "aurora-firebase" */;
 			buildPhases = (
+				F6EBF77F96CC2FCF1ED9B407 /* [CP] Check Pods Manifest.lock */,
 				A28D4A311D1E106D008A2CEA /* Sources */,
 				A28D4A321D1E106D008A2CEA /* Frameworks */,
 				A28D4A331D1E106D008A2CEA /* Resources */,
+				F1A2BD5091AB3B9FE8D0C132 /* [CP] Embed Pods Frameworks */,
+				896978646BAC45E7965CBD9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,12 +153,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				A28D4A431D1E106D008A2CEA /* LaunchScreen.storyboard in Resources */,
+				A28D4A4B1D1E109E008A2CEA /* GoogleService-Info.plist in Resources */,
 				A28D4A401D1E106D008A2CEA /* Assets.xcassets in Resources */,
 				A28D4A3E1D1E106D008A2CEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		896978646BAC45E7965CBD9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aurora-firebase/Pods-aurora-firebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A2BD5091AB3B9FE8D0C132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aurora-firebase/Pods-aurora-firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EBF77F96CC2FCF1ED9B407 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A28D4A311D1E106D008A2CEA /* Sources */ = {
@@ -249,6 +328,7 @@
 		};
 		A28D4A481D1E106D008A2CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371A4BD27F352CD464A9909B /* Pods-aurora-firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "aurora-firebase/Info.plist";
@@ -260,6 +340,7 @@
 		};
 		A28D4A491D1E106D008A2CEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06026F825F64852EE16BBE06 /* Pods-aurora-firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "aurora-firebase/Info.plist";
@@ -288,6 +369,7 @@
 				A28D4A491D1E106D008A2CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
